@@ -19,7 +19,7 @@ Ready? Let's get started!
 
 ## Part 1: Pulling the PostgreSQL Image 📥
 
-First, we need to get the PostgreSQL image from Docker Hub. 
+First, we need to get the PostgreSQL image from Docker Hub.
 
 1. Open Docker Desktop.
 2. In the search bar, type `postgres` and select the `Images` tab.
@@ -29,13 +29,13 @@ First, we need to get the PostgreSQL image from Docker Hub.
 
 Great! You should now see the PostgreSQL image in the `Images` tab of Docker.
 
-   ![PostgreSQL Image in Docker](image_1.png)
+![PostgreSQL Image in Docker](image_1.png)
 
 ---
 
 ## Part 2: Creating a Persistent Volume 💾
 
-Docker containers are ephemeral, meaning they don't retain data when turned off. To keep our database data safe, we'll create a volume. 
+Docker containers are ephemeral, meaning they don't retain data when turned off. To keep our database data safe, we'll create a volume.
 
 1. Go to the `Volumes` tab in Docker Desktop.
 2. Click on `Create a Volume`.
@@ -51,7 +51,7 @@ Docker containers are ephemeral, meaning they don't retain data when turned off.
 
 ## Part 3: Setting Up the Container 🛠️
 
-Now, let's create and configure our PostgreSQL container. 
+Now, let's create and configure our PostgreSQL container.
 
 Open your terminal and run:
 
@@ -82,7 +82,7 @@ Connection details for your new PostgreSQL container:
 
 ## Part 4: Testing the Connection 🧪
 
-Time to test our setup with DataGrip. 
+Time to test our setup with DataGrip.
 
 1. Open DataGrip and add a new data source.
 
